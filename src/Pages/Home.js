@@ -32,10 +32,10 @@ const Home = () => {
   return (
     <Container
       maxWidth="xl"
-      sx={{ display: "flex", alignItems: "center" }}
+      sx={{ display: "flex", alignItems: "center",justifyContent:'center' }}
     >
-      <img src={goodspaceWelcome} alt="#"/>
-      <Box sx={{width:'60%',marginLeft:'4rem'}}>
+      {/* <img src={goodspaceWelcome} alt="#"/> */}
+      <Box sx={{width:'60%'}}>
       <Box
         className="title_box"
         sx={{ width: "87%", textAlign: "center" }}
@@ -46,7 +46,7 @@ const Home = () => {
         <ChatIcon
           sx={{ alignSelf: "center", fontSize: "2.3rem", color: "white" }}
         />
-        <Typography className="title" fontSize={30} ml={2}>
+        <Typography className="title" fontSize={30} >
           Chat
         </Typography>
       </Box>

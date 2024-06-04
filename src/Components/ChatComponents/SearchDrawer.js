@@ -125,8 +125,9 @@ const SearchDrawer = () => {
          </Button>
       </Tooltip>
 
-      <Box sx={{display:'flex'}} >
-           <img src={goodspace} alt='#'/>
+      <Box sx={{display:'flex',color:'white',fontWeight:'bold',fontSize:'2rem'}} >
+           {/* <img src={goodspace} alt='#'/> */}
+           ZEN TALK
       </Box>
 
       <Box sx={{display:'flex'}}>
